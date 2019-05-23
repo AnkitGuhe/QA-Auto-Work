@@ -19,28 +19,25 @@ Installing
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
-Download JDK
-Add Environmental varaibles to system
-Download and install Eclpise IDE
-Download Selenium 
-
+1)Download JDK
+2)Add Environmental varaibles to system
+3)Download and install Eclpise IDE
+4)Download Selenium - Extract It
+5)Go to Eclipse > Start New Java Project 
+6)Right click on the project from Project Explorer > and Go to Properties > BuildPath 
+7)Here, go to Libraries, GOTO ClassPath and add Selenium Jars files from the extracted folders in step 5.
+8) Go to https://www.ecanarys.com/Blogs/ArticleID/169/How-to-Install-TestNG-framework-Step-by-Step-installation-process and install
+   testNG
 
 Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Selenium - The framework used
+TestNG - Test framework
 
 Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+We use GitHub for versioning. For the versions available, see the tags on this repository.
 
 Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+Ankit Guhe
 
 Acknowledgments
 Hat tip to anyone whose code was used
